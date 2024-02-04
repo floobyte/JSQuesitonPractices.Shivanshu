@@ -1,0 +1,912 @@
+----------------------------------> Shivanshu Bharti <------------------------------------------------
+
+
+// (1). Print "Hello World"
+
+👉 console.log("Hello World")
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// (2). You need to print "Floobyte Intern" on a line, and print "A Transformation in Education" on a new line.
+
+👉 console.log("Floobyte Intern\nA Transformation in Education ")
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// (3).Multiply the number stored in the variable n by 50, and print the result obtained
+
+👉 const n=2;
+console.log(n*50)
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// (4).You are given a number, stored in a variable with the name n. Perform the following operations on the value stored in n:
+
+// 1. Multiply the value by 3
+// 2. Add 7 to it
+// 3. Subtract 10 from it
+// After performing all the above operations, print the updated value
+
+
+👉 const x = 4;
+console.log(x*3+7-10)
+
+// (4).You are given an integer n, print its [square value]
+
+👉 const userEnter = prompt("Please enter your square Number:");
+    const sqr = 2
+    console.log("The square of two value is",userEnter*sqr)
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// (5).Given a number n, find its cube.
+
+👉 const userEnterCube= prompt("Please enter your Cube number");
+    const cube = 3;
+    console.log("The cube of two value is",userEnterCube**cube)
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// (6).You are given six numbers, stored in variables with the following names:
+
+// one, two, three, four, five, six
+// Print the product of all the six number
+
+👉 const a = 1;
+const b = 2;
+const c = 3;
+const d = 4;
+const e= 5;
+const f = 6;
+console.log(a*b*c*d*e*f)
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// (7).You are given five numbers stored in variables with the following names:
+
+// one, two, three, four, five
+
+// Find the product of the five values, and print it
+
+👉 const a1 = 1;
+const b1 = 2;
+const c1 = 3;
+const d1 = 4;
+const e1= 5;
+console.log(a1*b1*c1*d1*e1)
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+// (8).You are given five numbers stored in variables with the following names:
+
+// one, two, three, four, five
+// Find the sum of the five values, and print it
+👉 const a2 = 1;
+const b2= 2;
+const c2= 3;
+const d2= 4;
+const e2 = 5;
+console.log(a2+b2+c2+d2+e2)
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+// (9).You are given eight numbers, stored in variables with the following names:
+
+// one, two, three, four, five, six, seven, eight
+// Print the product of all the eight numbers
+
+👉 const one = 1;
+const two = 2;
+const three = 3;
+const four = 4;
+const five = 5;
+const six = 6;
+const seven= 7;
+const eight=8;
+console.log(one*two*three*four*five*six*seven*eight)
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+// (10).You are given five numbers, stored in the variables with the following names:
+
+// one, two, three, four, five
+
+// All the values are doubled, that is, they are multiplied by 2
+
+// Find the sum of the values stored in one, two, three, four, five, after the above operations are performed
+
+👉 const ek = 1*2;
+const doo= 2*2;
+const teen = 3*2;
+const fourr = 4*2;
+const fiveee= 5*2;
+console.log(ek+doo+teen+fourr+fiveee)
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+10. Double all 15/01/2024 to 16/01/2024
+Description
+
+You are given five numbers, stored in the variables with the following names:
+
+one, two, three, four, five
+
+All the values are doubled, that is, they are multiplied by 2
+
+Find the sum of the values stored in one, two, three, four, five, after the above operations are performed
+
+
+👉 const one = 2*2;
+const two = 3*2;
+const three = 4*2;
+const four = 5*2;
+const five = 6*2;
+console.log("The sum if",one+two+three+four+five)
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+11. Double Two Triple One 15/01/2024 to 16/01/2024
+Description
+
+You are given four numbers, stored in the variables with the following names:
+
+one, two, three, four
+
+Perform the following operations on the four numbers:
+
+1. The value stored in one and two is doubled, such that, if it was 2 initially, it becomes 4
+2. The value stored in three is multiplied by 3, such that, if it was 4, it becomes 12
+3. The value stored in four is increased by 4, such that if it was 7 initially, it becomes 11
+
+Find the sum of the values stored in one, two, three, four, after the above operations are performed
+
+
+
+👉 const one = 1*2;
+const two = 2*2;
+const three = 3*3;
+const four = 4+4;
+console.log("the sum is",one+two+three+four)
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+12. Operation on Numbers - 2 15/01/2024 to 16/01/2024
+Description
+
+You are given a number stored in a variable with the name N, and another number stored in a variable with the name M
+
+You have to perform the following operations on the value stored in N:
+
+1. Multiply the value stored in N by 40
+2. Add 20 to the value stored in N
+3. Subtract 50 from the value stored in N
+
+You are given another number stored in the variable M
+
+If the value after performing the above operations is greater than M, print Greater!, else if the value is equal, print Equal!, else print Lesser!
+
+For example, consider the value stored in N = 5, and the value stored in M = 10
+
+Then, after performing the above operations, the value stored in N becomes:
+
+     N = N * 40 = 200
+
+     N = N + 20 = 220
+
+     N = N - 50 = 170
+Now, the value stored in M is 10, which is lesser than the value stored in N. Therefore, the output is Greater!
+
+
+
+
+👉 const N = 5;
+
+const All = N*40+20-50
+
+const M = 10;
+
+if(All>M){
+    console.log("N is greater")
+}else{
+    console.log("M is greater")
+}
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+13. Seven Numbers 15/01/2024 to 16/01/2024
+Description
+
+You are given 7 numbers A, B, C, D, E, F, G. Find out the product of (A + B + C) and (D + E + F + G).
+
+
+
+👉 const A = 1;
+const B = 2;
+const C = 3;
+const D = 4;
+const E = 5;
+const F = 6;
+const G = 7
+
+const sum1 = A+B+C
+const sum2 = D+E+F+G
+console.log(sum1*sum2)
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+14. Find X again 15/01/2024 to 16/01/2024
+Description
+
+Given a value of X, find the final value of X, if X is multiplied by 7 twice.
+
+
+👉 const X = 6;
+console.log(6*7*7)
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+15. Infinity Stones 15/01/2024 to 16/01/2024
+Description
+
+You are given five numbers, stored in variables with the following names:
+
+one, two, three, four, five, six
+
+The value stored in the variables two, five, six has been doubled, such that if initially the value was 3, it has become 6
+
+The value stored in the variables three, four has been increased three times, such that if initially it was 3, it has become 9
+
+The value stored in the variable one has not been changed.
+
+Find the sum of the updated values stored in one, two, three, four, five, six
+
+
+
+
+👉 const one  = 1;
+const two = 2*2;
+const three = 3*3;
+const four = 4*3;
+const five = 5*2;
+const six = 6*2;
+
+console.log(one+two+three+four+five+six)
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+16. Update & Compare 15/01/2024 to 16/01/2024
+Description
+
+You are given two numbers, stored in variables with the names num1 and num2
+
+Print the output of the following operation
+
+num1 > num2, this prints true if num1 is greater than num2, else it prints false
+After this operation is performed, another number, stored in a variable with name num3 is added to num1. After this, print the result of the following operation again
+
+num1 > num2, this prints true if num1 is greater than num2, else it prints false
+
+
+
+
+👉 let num1=10;
+let num2= 20
+let num3 = 30;
+if(num1>num2){
+    console.log(false)
+}else{
+    console.log(true)
+}
+
+ num1 += num3;
+if(num1>num2){
+    console.log(false)
+}else{
+    console.log(true)
+}
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+17. Compare two Numbers 15/01/2024 to 16/01/2024
+Description
+
+You are given two numbers stored in two variables, with the name, num1 and num2
+
+Print the result of the following operations
+
+1. num1 > num2 -> this operation prints true if num1 is greater than num2, otherwise it prints false
+2. num1 < num2 -> this operations prints true if num1 is smaller than num2, otherwise it prints false
+3. num1 == num2 -> this operation print true if num1 is equal to num2, otherwise it prints false
+You have to print the result of three operations in the order as shown above
+
+
+👉 const num1 = 23;
+const num2 = 34;
+if(num1>num2){
+    console.log(true)
+}else{
+    console.log(false)
+}
+
+const num11 = 23;
+const num22 = 34;
+if(num11<num22){
+    console.log(true)
+}else{
+    console.log(false)
+}
+
+const num111=23;
+const num222=34;
+if(num111==num222){
+    console.log(true)
+}else{
+    console.log(false)
+}
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+18. Sum & Compare 15/01/2024 to 16/01/2024
+Description
+
+You are given five numbers, stored in the variables with the following names:
+
+one, two, three, four, five
+
+You have to declare another variable sum1, such that sum1 = one + two + three
+
+Also, you have to declare another variable sum2, such that sum2 = four + five
+
+Finally, you have to print the output of the following operation
+
+sum1 > sum2 (This operation prints true if sum1 is greater than sum2, else it prints false)
+
+
+
+👉 const one = 1;
+const two=2;
+const three = 3;
+const four = 4;
+const five = 5;
+
+const sum1 = one+two+three;
+const sum2 = four+five;
+if(sum1>sum2){
+    console.log(true)
+}else{
+    console.log(false)
+}
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+19. Compare Seven Numbers 15/01/2024 to 16/01/2024
+Description
+
+You are given seven numbers, stored in the variable with the following names:
+
+a, b, c, d, e, f, g
+
+You have to declare two variables, sum1 and sum2, such that sum1 = (a + b) * c and sum2 = (d + e + f + g)
+
+Print the output of the following operation
+
+sum1 > sum2
+
+
+👉 const a = 1;
+const b = 2;
+const c = 3;
+const d = 4;
+const e = 5;
+const f = 6;
+const g = 7;
+
+const sum1 = (a + b) * c ;
+const sum2 = (d + e + f + g);
+
+if(sum1> sum2){
+    console.log(true)
+}else{
+    console.log(false)
+}
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+20. Area and Perimeter 15/01/2024 to 16/01/2024
+Description
+
+You are given the sides of rectangle 1: L1 and B1 and the sides of rectangle 2: L2 and B2.
+
+You need to print if the area of rectangle 1 is greater than rectangle 2.
+
+You also need to print if the perimeter of rectangle 1 is greater than rectangle 2.
+
+
+
+
+
+👉 var L1 = 8; 
+var B1 = 5; 
+
+var L2 = 6; 
+var B2 = 4; 
+
+// Calculate area and perimeter of rectangles
+var area1 = L1 * B1;
+var area2 = L2 * B2;
+
+var perimeter1 = 2 * (L1 + B1);
+var perimeter2 = 2 * (L2 + B2);
+
+// Check and print if the area of rectangle 1 is greater than rectangle 2
+console.log("Area of Rectangle 1 is greater:", area1 > area2);
+
+// Check and print if the perimeter of rectangle 1 is greater than rectangle 2
+console.log("Perimeter of Rectangle 1 is greater:", perimeter1 > perimeter2);
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+21. Cube and Square 15/01/2024 to 16/01/2024
+Description
+
+You are given two numbers n and m, you need to check if the cube of n is greater than the square of m.
+
+
+
+👉 const n = 2;
+const m = 3;
+const ncube = Math.pow(n,3);
+const nsqr = Math.pow(m,2)
+
+if(ncube>nsqr){
+    console.log(true)
+}else{
+    console.log(false)
+}
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+22. Print Floobyte Intern II 15/01/2024 to 16/01/2024
+Description
+
+You are given a number stored in a variable with the name num
+
+You have to print Floobyte Intern, as many times as the number stored in the variable num
+
+Every time, print Floobyte Intern on a new line
+
+
+
+
+👉 for (i=1;i<=5;i++){
+    console.log("Floobyte Intern")
+}
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+23. Hello World 5 Times 15/01/2024 to 16/01/2024
+Description
+
+Print Hello World 5 times
+
+Every time, print Hello World on a new line
+
+
+
+
+👉 for (i=1;i<=5;i++){
+    console.log("Hello World")
+}
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+24. Hello World 10 Times 15/01/2024 to 16/01/2024
+Description
+
+Print Hello World 10 times
+
+Every time, print Hello World on a new line
+
+
+
+
+ 👉 for (i=1;i<=10;i++){
+    console.log("Hello World")
+}
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+25. Loop 1 to 5 15/01/2024 to 16/01/2024
+Description
+
+You have to print all the numbers from 1 to 5
+
+Print each number on a new line
+
+
+
+👉 for (i=1;i<=5;i++){
+    console.log(i)
+}
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+26. Loop 1 to 10 15/01/2024 to 16/01/2024
+Description
+
+You have to print all the numbers from 1 to 10
+
+Print each number on a new line
+
+
+👉 for (i=1;i<=10;i++){
+    console.log(i)
+}
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+27. Loop 1 to N 15/01/2024 to 16/01/2024
+Description
+
+You are given a number stored in a variable with the name num
+
+You have to print all the numbers from 1 to num, including num as well.
+
+Print each number on a new line
+
+
+
+👉 const num = 100
+
+for (i=1;i<=num;i++){
+    console.log(i)
+}
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+28. From A to B 15/01/2024 to 16/01/2024
+Description
+
+You are given two numbers, stored in variables with the following names
+
+max, min
+
+You have to print all the numbers from min to max, excluding max. Print each number on a new line
+
+For example, if the value stored in max = 19, and the value stored in min = 14, then the output will be
+
+14
+15
+16
+17
+18
+
+Note: The value stored in max will always be greater than or equal to min
+
+
+
+
+
+👉 let min = 14;
+let max = 19;
+min -=1
+
+for (i=min;i<max;i++){
+    console.log(i)
+}
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+29. Multiplication Table of 2 15/01/2024 to 16/01/2024
+
+
+
+👉for(i=1;i<=10;i++){
+    console.log(i*2)
+}
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+30. Multiplication Table of 3 15/01/2024 to 16/01/2024
+
+
+👉for(i=1;i<=10;i++){
+    console.log(i*3)
+}
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+31. Multiplication Table of N 15/01/2024 to 16/01/2024
+Description
+
+Given a number, stored in the variable with the name num
+
+Print the multiplication table of the value stored in num
+
+
+👉const num = 9
+
+for(i=1;i<=10;i++){
+    console.log(i*num)
+}
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+32. Move 2 Ahead 15/01/2024 to 16/01/2024
+Description
+
+You are given a number, stored in a variable with the name num
+
+Print all the odd numbers lesser than or equal to the value stored in num
+
+Only those numbers need to be printed which are greater than zero
+
+
+👉let num = 12;
+for(i=1;i<=num;i+=2){
+    console.log(i)
+}
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+33. Move 2 Ahead II 15/01/2024 to 16/01/2024
+Description
+
+You are given a number stored in a variable with the name num
+
+You have to print all the even numbers greater than zero, and less than or equal to the value stored in num
+
+
+👉let num = 12;
+for(i=2;i<=num;i+=2){
+    console.log(i)
+}
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+34. Sum of 1 to N 15/01/2024 to 16/01/2024
+Description
+
+You are given a number stored in a variable with the name N
+
+Find the sum of all the numbers from 1 to N
+
+
+
+👉 
+let N = 5;
+
+
+let sum = 0;
+
+
+for ( i = 1; i <= N; i++) {
+    console.log(i);
+    sum += i;
+}
+
+
+console.log("The sum is:", sum);
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+35. Sum of 1 to N 15/01/2024 to 16/01/2024
+Description
+
+You are given a number, stored in a variable with the name N
+
+Find the sum of al the numbers 1 to N
+
+
+👉 
+let N = 5;
+
+
+let sum = 0;
+
+
+for ( i = 1; i <= N; i++) {
+    console.log(i);
+    sum += i;
+}
+
+
+console.log("The sum is:", sum);
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+36. Even Sum Below N 15/01/2024 to 16/01/2024
+Description
+
+You are given a number, stored in a variable with the namenum
+
+Find the sum of all even numbers greater than zero, and less than or equal to the value stored innum
+
+For example, if the value stored innum = 5, then all the even numbers smaller than or equal to 5, and greater than zero are
+
+2
+4
+Therefore, the sum becomes,sum = 2 + 4 = 6, which is the required output
+
+
+
+
+👉let num = 5;
+
+let
+let sum = 0;
+
+
+for (let i = 2; i <= num; i += 2) {
+    console.log(i);
+    sum += i;
+}
+
+
+console.log("The sum is:", sum);
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+37. Odd Sum Below N 15/01/2024 to 16/01/2024
+Description
+
+You are given a number, stored in a variable with the namenum
+
+Find the sum of all odd numbers, greater than 0, and less than or equal to the value stored innum
+
+Finally, print the sum
+
+
+👉
+let num = 5;
+
+
+let sum = 0;
+
+
+for ( i = 1; i <= num; i += 2) {
+    console.log(i);
+    sum += i;
+}
+
+
+console.log("The sum is:", sum);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
